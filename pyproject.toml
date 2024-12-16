@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-pyweb-hw-06"
+version = "0.1.0"
+description = ""
+authors = ["Anton Vasyliev <anton12vasyliev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+psycopg2 = "^2.9.10"
+faker = "^33.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
